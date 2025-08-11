@@ -3,115 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy for DailyList Pro</title>
+    <title>DailyList Pro - Simplify Your Tasks</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
-        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
         body {
-            font-family: 'Lora', serif;
-            line-height: 1.8;
-            color: #333;
-            background-color: #fdfdfd;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
         }
+
         .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px 40px;
-            background-color: #ffffff;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        h1 {
-            font-family: 'Poppins', sans-serif;
-            text-align: center;
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .header-logo {
+            font-size: 1.8em;
+            font-weight: 700;
             color: #2c3e50;
         }
-        h2 {
-            font-family: 'Poppins', sans-serif;
-            border-bottom: 2px solid #f0f0f0;
-            padding-bottom: 5px;
-            margin-top: 30px;
-            color: #2c3e50;
-        }
-        p, li {
-            font-size: 1.1em;
-        }
-        strong {
-            color: #000;
-        }
-        a {
-            color: #007bff;
+        
+        nav a {
             text-decoration: none;
+            color: #555;
+            font-weight: 600;
+            margin-left: 25px;
+            transition: color 0.3s ease;
         }
-        a:hover {
-            text-decoration: underline;
+
+        nav a:hover {
+            color: #007bff;
         }
-        .footer {
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             text-align: center;
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #777;
+            padding: 80px 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
+
+        .hero-content {
+            max-width: 650px; /* Increased max-width for better text flow */
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 0; /* Removed bottom margin as buttons are gone */
+        }
+        
+        .features {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 2.2em;
+            margin-bottom: 40px;
+        }
+        
+        .feature-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .feature-item {
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            width: 280px;
+            text-align: left;
+        }
+
+        .feature-item h3 {
+            font-size: 1.4em;
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        .feature-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+
+        .suiner-logo {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2em; }
+            .hero p { font-size: 1em; }
+            .header-logo { font-size: 1.5em; }
+        }
+
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Privacy Policy for DailyList Pro</h1>
-        
-        <p><strong>Effective Date:</strong> Aug 12, 2025</p>
-        
-        <h2>1. Introduction</h2>
-        <p>
-            This Privacy Policy describes how <strong>Suiner</strong> ("we", "us", or "our") handles information in connection with your use of the <strong>DailyList Pro</strong> mobile application (the "App"). 
-        </p>
-        <p>
-            Your privacy is extremely important to us. Our policy is simple: <strong>we do not collect any personal information or data from our users.</strong>
-        </p>
-
-        <h2>2. Data We Do Not Collect</h2>
-        <p>
-            The DailyList Pro app is designed to be a completely private and offline tool. We want to be crystal clear about the data we <strong>DO NOT</strong> collect:
-        </p>
-        <ul>
-            <li><strong>No Personal Information:</strong> We do not collect any personally identifiable information like your name, email address, phone number, or location.</li>
-            <li><strong>No User Content is Transmitted:</strong> The lists, titles, and descriptions you create in the app are stored exclusively on your local device. This data is never transmitted, uploaded, or saved to any external server or database. We have no access to it.</li>
-            <li><strong>No Usage Analytics:</strong> We do not use any third-party analytics tools to track your interaction with the app.</li>
-        </ul>
-        
-        <h2>3. How Your Data is Stored and Used</h2>
-        <p>
-            All data you input into DailyList Pro (such as task titles, descriptions, and their completion status) is stored locally in the app's private storage on your own device (phone or tablet). This data is used only to provide the app's core functionality, which is to let you create, view, and manage your lists. When you mark a task as complete, that status is saved on your device so you can see your progress when you reopen the app. If you uninstall the app, this data is typically deleted from your device.
-        </p>
-        
-        <h2>4. Third-Party Services</h2>
-        <p>
-            The app does not integrate with any third-party services, APIs, or SDKs that would collect data from you.
-        </p>
-
-        <h2>5. Children's Privacy</h2>
-        <p>
-            Since we do not collect any personal information, we do not knowingly collect information from children under the age of 13. The app is safe for all ages to use.
-        </p>
-
-        <h2>6. Changes to This Privacy Policy</h2>
-        <p>
-            We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
-        </p>
-
-        <h2>7. Contact Us</h2>
-        <p>
-            If you have any questions or concerns about this Privacy Policy or the app, please feel free to contact us. We are here to help.
-        </p>
-        <p>
-            <strong>Developed by:</strong> Suiner<br>
-            <strong>Support Email:</strong> <a href="mailto:suinerofficeldeveloper@gmail.com">suinerofficeldeveloper@gmail.com</a>
-        </p>
-
-        <div class="footer">
-            <p>This policy was last updated on Aug 12, 2025.</p>
-        </div>
+        <header>
+            <div class="header-logo">DailyList Pro</div>
+            <nav>
+                <!-- IMPORTANT: Yahan 'privacy_policy.html' ko apne final Privacy Policy URL se badal dein -->
+                <a href="https://sudersu.github.io/dailylistpro.42web./" target="_blank">Privacy Policy</a>
+            </nav>
+        </header>
     </div>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Organize Your Day, Simply.</h1>
+                    <p>
+                        Welcome to DailyList Pro, a minimal and powerful to-do list application designed for simplicity and privacy. Create lists for your shop inventory, daily chores, or any important task. Mark items as complete and stay perfectly organized. All your data stays on your device, ensuring total privacy.
+                    </p>
+                </div>
+            </section>
+            
+            <section class="features">
+                <h2>Core Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h3>Simple & Fast Interface</h3>
+                        <p>Quickly add titles and descriptions to your tasks. The clean and intuitive interface helps you focus on what matters most, without any distractions.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Easy Progress Tracking</h3>
+                        <p>Simply tap to mark any task as complete. A clear visual checkmark lets you see your progress at a glance whenever you reopen the app.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>100% Private and Offline</h3>
+                        <p>Your privacy is our priority. Your lists are never sent to a server. Everything is stored securely and locally on your own device.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <!-- IMPORTANT: 'suiner_logo.png' ko isi folder mein rakhein -->
+            <img src="suiner_logo.png" alt="Suiner Logo" class="suiner-logo">
+            <p>Developed by <strong>Suiner</strong></p>
+            <p>For support or any inquiries, please contact our team at: <a href="mailto:suinerofficeldeveloper@gmail.com">suinerofficeldeveloper@gmail.com</a></p>
+        </div>
+    </footer>
+
 </body>
 </html>
